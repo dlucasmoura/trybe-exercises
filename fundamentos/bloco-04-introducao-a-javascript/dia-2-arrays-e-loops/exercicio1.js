@@ -92,3 +92,4 @@ for (let index = 0; index < novoArray.length; index += 1) {
     console.log(novoArray[index] / 2);
 }
 
+console.log("------------");
