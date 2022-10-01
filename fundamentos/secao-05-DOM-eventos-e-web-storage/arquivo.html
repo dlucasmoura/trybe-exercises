@@ -58,24 +58,28 @@
   <body>
     <script>
 
-        /* QUESTAO1 */
-      const header = document.createElement(h1);
+/* QUESTAO1 */
 
-console.log(-------------------);
+      const title = document.createElement("h1");
+      title.innerText = "Exercício - JavaScript DOM";
+      document.body.appendChild(title);
 
-      /* QUESTAO2 */
-
-      header.innerText = "Exercício - JavaScript DOM";
-      console.log(header);
-
-console.log(-------------------);
-      /* QUESTAO3 */
-
-      document.body.appendChild(header);
-
-      console.log(-------------------);
-      /* QUESTAO3 */
+/* QUESTAO2 */
       
+      const main = document.createElement("main");
+      main.className = "main-content";
+      document.body.appendChild(main);
+
+/* QUESTAO3 */
+
+      const section = document.createElement("section");
+      section.className = "center-content";
+      main.appendChild(section)
+
+/* QUESTAO4 */
+
+
+
     </script>
   </body>
 </html>
